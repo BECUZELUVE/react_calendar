@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none}
+.box{width:450px;height: 400px;margin: 50px auto;padding: 20px;border-radius: 10px;}
+
+.rili .inputBox{position:relative;width:150px;border: 1px solid rgb(30, 148, 202);padding: 5px;border-radius: 5px;margin:5px 0;}
+.rili .inputBox .icon{position: absolute;right:0;top:0;width:30px;height:30px;cursor: pointer;}
+.rili .inputBox .icon img{width: 100%;}
+
+.riliMenu{border: 1px solid rgb(30, 148, 202);width: 400px;padding: 20px;border-radius: 5px;}
+.riliMenu .pickDate{height:40px;line-height: 40px;text-align: center;padding-bottom:10px;border-bottom: 2px solid rgb(30, 148, 202);}
+.riliMenu .pickDate div{float: left; width: 30%;text-align: center;}
+.riliMenu .pickDate div.today{float: left; width: 10%;text-align: center;height:40px;}
+.riliMenu .pickDate .btn{background-color:rgb(103, 194, 236);color:#fff;display: inline-block;width:80px;height:25px;line-height: 25px;border-radius: 10px;}
+.riliMenu .pickDate div.today .btn{width:40px;height:40px;line-height:20px;border-radius: 0;}
+.riliMenu .pickDate .center a{display:inline-block;margin:0 5px;color: rgb(30, 148, 202);text-decoration:underline;font-weight: bold;font-size: 18px;}
+
+.riliMenu .pickYear{height:40px;line-height: 40px;text-align: center;padding-bottom:10px;border-bottom: 2px solid rgb(30, 148, 202);}
+.riliMenu .pickYear div{float: left; width: 33.33%;text-align: center;}
+.riliMenu .pickYear .btn{background-color:rgb(103, 194, 236);color:#fff;display: inline-block;width:80px;height:25px;line-height: 25px;border-radius: 10px;}
+.riliMenu .pickYear .center a{display:inline-block;margin:0 5px;color: rgb(30, 148, 202);text-decoration:underline;font-weight: bold;font-size: 25px;}
+
+.riliMenu .chooseDate table{width: 100%;text-align: center;border-collapse: collapse;}
+.riliMenu .chooseDate table span{display: block;line-height:16px;}
+.riliMenu .chooseDate table span.cd{font-size:12px;}
+.riliMenu .chooseDate table thead tr{border-bottom: 1px solid #999;line-height: 30px;}
+.riliMenu .chooseDate table tbody td{padding: 5px 0;cursor: pointer;}
+.riliMenu .chooseDate table tbody td.gray{color:#999}
+.riliMenu .chooseDate table tbody td.cur{background-color: rgb(69, 163, 207);color:#fff;}
+
+.riliMenu .chooseYear table{width: 100%;text-align: center;border-collapse: collapse;}
+.riliMenu .chooseYear table tbody td{padding: 3px 0;cursor: pointer;}
+.riliMenu .chooseYear table tbody td.cur{background-color: rgb(69, 163, 207);color:#fff;}
+
+.riliMenu .chooseMonth table{width: 100%;text-align: center;border-collapse: collapse;}
+.riliMenu .chooseMonth table tbody td{padding: 3px 10px;cursor: pointer;}
+.riliMenu .chooseMonth table tbody td.cur{background-color: rgb(69, 163, 207);color:#fff;}
+
