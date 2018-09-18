@@ -1,5 +1,5 @@
 import React from 'react';
-import RiliMenu from './rili_menu'
+import RiliMenu from './calendar_menu'
 
 export default class App extends React.Component{
     constructor(){
